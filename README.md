@@ -11,7 +11,7 @@ For example:
 
     cat input_file.txt|python -mne $'L=L.rstrip();values = L.split("\t");\nif (float(values[1])>.001): print (values[1])'
 
-will print every line of input_file.txt that has a first column value greater than or equal to .001. Note the $ before the code. That is necessary if you want to include control statements (e.g. if and while ).
+will print every line of input_file.txt that has a second column value greater than or equal to .001. Note the $ before the code. That is necessary if you want to include control statements (e.g. if and while ).
 
 This module is slightly modified from this stack overflow answer here: http://stackoverflow.com/questions/4427542/how-to-do-sed-like-text-replace-with-python 
 
